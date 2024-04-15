@@ -40,11 +40,11 @@ class BankAccount {
     }
   }
   
-  // Create two instances of the BankAccount class
+  
   const account1 = new BankAccount(1001, "Rafi Mushfic Fahim");
   const account2 = new BankAccount(1002, "Mimuna Akter Mim", 1000);
   
-  // Demonstrate the functionality of the methods
+
   account1.deposit(500);
   account1.withdraw(200);
   account1.getBalance();
